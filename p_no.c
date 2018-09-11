@@ -9,7 +9,7 @@ for(b=1,c=0; b<a;b++)
 if(a%b==0)
 c+=b;
 }
-
+//written using github
 if(c==a)
 printf("perfect no\n");
 else
