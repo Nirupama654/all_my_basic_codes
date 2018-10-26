@@ -20,4 +20,4 @@ printf("No of steps : %d\n",i);
 
 
 return 0;
-}
+}/////
