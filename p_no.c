@@ -10,7 +10,7 @@ if(a%b==0)
 c+=b;
 }
 //written using github
-if(c==a)
+if(c==a)//c=a
 printf("perfect no\n");
 else
 printf("not a perfect no\n");
