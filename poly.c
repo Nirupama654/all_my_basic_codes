@@ -15,7 +15,7 @@ m=(max+min)/2;
 while(fabs(m*m*m-m*m+2)>0.000001){
 m=(max+min)/2;
 if((m*m*m-m*m+2)>0){
-max=m;
+max=m;//max
 }	else{
 min=m;
 }
