@@ -1,21 +1,24 @@
+// Prints the prime number in a given range
+
 #include<stdio.h>
 int main()
 {
-int a=2,b,c,d=0;
-printf("these number are prime number\n");
-while(a<100)
+int b,c,d=0 ,m ,n;
+printf("Enter the range upto which you want to see the list of prime numbers(lower & upper range respectively) ? \n");
+scanf("%d%d",&m,&n);
+while(m <= n)
 {d=0;
 b=2;
-for(;b<=a/2;){
-if(a%b==0)
+for(;b<=m/2;){
+if(m%b==0)
 	d=1;
 b++;
 }
 if(d==0){
-printf("%d\n",a);
+printf("%d\n",m);
 
 }
-a++;
+m++;
 }
 return 0;
 
